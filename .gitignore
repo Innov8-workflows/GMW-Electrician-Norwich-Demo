@@ -6,6 +6,9 @@
 !.github/
 !.github/**
 !index.html
+# site-buildout (2026-11-22): the built multi-page site; the Actions workflow uploads _site
+!_site/
+!_site/**
 
 # Kept from the run's own list (already covered by * above):
 AUTOPILOT.json
