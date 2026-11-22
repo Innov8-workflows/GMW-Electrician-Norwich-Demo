@@ -1,0 +1,24 @@
+# Allowlist: only the built page and the deploy workflow are published.
+# build.js, site.config.js, _src, content, _source, old-site, every .md, AUTOPILOT.json
+# and the audit files stay local (site-demo STEP 6).
+*
+!.gitignore
+!.github/
+!.github/**
+!index.html
+
+# Kept from the run's own list (already covered by * above):
+AUTOPILOT.json
+BUILD-*.md
+BUILD-RESULT.json
+FINISH-REPORT.md
+DEMO-HANDOFF.md
+*.md
+old-site/
+audit-shots/
+_source/
+_finish/
+node_modules/
+audit.json
+*.pdf
+*_Website_Audit.html
